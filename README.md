@@ -27,7 +27,7 @@ jobs:
       id: greetings
       uses: GuillaumeFalourd/poc-composite-run-steps-action@main
       with:
-        who-to-greet: 'Who ever you want'
+        who-to-greet: 'Whoever you want'
 
     - name: Generating random number step
       run: echo The generated random number is ${{ steps.greetings.outputs.random-number }}
