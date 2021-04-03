@@ -1,8 +1,10 @@
 # poc-composite-run-steps-action
 
+[![Action Test Workflow](https://github.com/GuillaumeFalourd/poc-composite-run-steps-action/actions/workflows/main.yml/badge.svg)](https://github.com/GuillaumeFalourd/poc-composite-run-steps-action/actions/workflows/main.yml)
+
 POC of a composite run steps Github Action 🤖
 
-This repository has been inspired from [this tutorial](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action)
+This repository has been inspired from [this Github tutorial](https://docs.github.com/en/actions/creating-actions/creating-a-composite-run-steps-action).
 
 ## How to use this action?
 
