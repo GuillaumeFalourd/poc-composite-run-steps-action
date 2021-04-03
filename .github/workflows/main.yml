@@ -14,8 +14,8 @@ jobs:
       id: greetings
       uses: GuillaumeFalourd/poc-composite-run-steps-action@main
       with:
-        who-to-greet: 'Mona the Octocat'
+        who-to-greet: 'Guillaume'
 
     - name: Generating random number step
-      run: echo random-number ${{ steps.greetings.outputs.random-number }}
+      run: echo The generated random number is ${{ steps.greetings.outputs.random-number }}
       shell: bash
