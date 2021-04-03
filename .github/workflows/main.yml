@@ -10,11 +10,12 @@ jobs:
 
     - uses: actions/checkout@v2
 
-    - name: Greeting step
+    - name: Greetings step
+      id: greetings
       uses: GuillaumeFalourd/poc-composite-run-steps-action@main
       with:
         who-to-greet: 'Mona the Octocat'
 
     - name: Generating random number step
-      run: echo random-number ${{ steps.foo.outputs.random-number }}
+      run: echo random-number ${{ steps.greetings.outputs.random-number }}
       shell: bash
